@@ -1,0 +1,28 @@
+<configure
+ xmlns="http://namespaces.zope.org/zope"
+ xmlns:five="http://namespaces.zope.org/five"
+ xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+ xmlns:i18n="http://namespaces.zope.org/i18n"
+ i18n_domain="tncr.content">
+
+ <includeDependencies package="." />
+
+ <i18n:registerTranslations directory="locales" />
+
+ <include package=".browser" />
+
+ <genericsetup:registerProfile
+  name="default"
+  title="TNCR Content"
+  directory="profiles/default"
+  description="TNCR Content Package"
+  provides="Products.GenericSetup.interfaces.EXTENSION" />
+
+ <genericsetup:importStep
+  name="tncr.content-postInstall"
+  title="TNCR Content Post Install"
+  description="TNCR Content Post Install Import Step"
+  handler=".setuphandlers.post_install">
+ </genericsetup:importStep>
+
+</configure>

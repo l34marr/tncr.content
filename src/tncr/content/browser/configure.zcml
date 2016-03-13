@@ -1,0 +1,13 @@
+<configure
+ xmlns="http://namespaces.zope.org/zope"
+ xmlns:browser="http://namespaces.zope.org/browser"
+ xmlns:plone="http://namespaces.plone.org/plone"
+ i18n_domain="tncr.content">
+
+ <browser:page
+  name="monument_view"
+  for="tncr.content.interfaces.IMonument"
+  template="monument.pt"
+  permission="zope2.View" />
+
+</configure>
