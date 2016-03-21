@@ -15,9 +15,18 @@
  tal:condition="context/body"
  tal:content="structure python:context.body.output_relative_to(view.context)" />
 
-<p>地址:
+<div tal:condition="context/address">
+<label class="fieldHead" i18n:translate="">Address</label>
+<span class="forText">:</span>
 <span tal:content="context/address">text</span>
-</p>
+</div>
+
+<tal:has_img define="img view/random_image/getObject|nothing">
+<img tal:condition="img"
+ tal:replace="structure img/@@images/image/large" />
+<img tal:condition="python: not img"
+ tal:attributes="src string:http://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Sample-image.svg/200px-Sample-image.svg.png" />
+</tal:has_img>
 
  </metal:content-core>
 </metal:content-core>
