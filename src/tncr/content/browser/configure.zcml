@@ -11,4 +11,11 @@
   template="monument.pt"
   permission="zope2.View" />
 
+ <browser:page
+  name="relic_view"
+  for="tncr.content.interfaces.IRelic"
+  class=".view.MyView"
+  template="relic.pt"
+  permission="zope2.View" />
+
 </configure>

@@ -8,3 +8,7 @@ class IMonument(Interface):
     """Monument Type
     """
 
+class IRelic(Interface):
+    """Relic Type
+    """
+
