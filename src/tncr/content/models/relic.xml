@@ -32,6 +32,11 @@
   <title i18n:translate="">Address</title>
   <required>False</required>
  </field>
+ <field name="level"
+  type="zope.schema.TextLine">
+  <title i18n:translate="">Level</title>
+  <required>False</required>
+ </field>
 
 </schema>
 
