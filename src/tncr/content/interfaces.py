@@ -12,3 +12,7 @@ class IRelic(Interface):
     """Relic Type
     """
 
+class IRuin(Interface):
+    """Ruin Type
+    """
+

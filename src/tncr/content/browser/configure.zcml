@@ -18,4 +18,11 @@
   template="relic.pt"
   permission="zope2.View" />
 
+ <browser:page
+  name="ruin_view"
+  for="tncr.content.interfaces.IRuin"
+  class=".view.MyView"
+  template="ruin.pt"
+  permission="zope2.View" />
+
 </configure>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<model i18n:domain="tncr.content"
+ xmlns="http://namespaces.plone.org/supermodel/schema"
+ xmlns:form="http://namespaces.plone.org/supermodel/form"
+ xmlns:i18n="http://xml.zope.org/namespaces/i18n">
+
+<schema>
+
+ <field name="id"
+  type="zope.schema.TextLine">
+  <title i18n:translate="">Id</title>
+  <required>False</required>
+ </field>
+ <field name="title"
+  type="zope.schema.TextLine">
+  <title i18n:translate="">Title</title>
+  <required>False</required>
+ </field>
+ <field name="description"
+  type="zope.schema.Text">
+  <title i18n:translate="">Description</title>
+  <required>False</required>
+ </field>
+ <field name="body"
+  type="plone.app.textfield.RichText">
+  <title i18n:translate="">Text</title>
+  <description />
+  <required>False</required>
+ </field>
+ <field name="address"
+  type="zope.schema.TextLine">
+  <title i18n:translate="">Address</title>
+  <required>False</required>
+ </field>
+ <field name="level"
+  type="zope.schema.TextLine">
+  <title i18n:translate="">Level</title>
+  <required>False</required>
+ </field>
+
+</schema>
+
+</model>
