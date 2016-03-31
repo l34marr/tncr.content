@@ -52,4 +52,11 @@
   template="photo.pt"
   permission="zope2.View" />
 
+ <browser:page
+  name="house_view"
+  for="tncr.content.interfaces.IHouse"
+  class=".view.MyView"
+  template="house.pt"
+  permission="zope2.View" />
+
 </configure>

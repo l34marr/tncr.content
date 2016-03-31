@@ -7,4 +7,5 @@
  <object name="Settlement" meta_type="Dexterity FTI"/>
  <object name="Temple" meta_type="Dexterity FTI"/>
  <object name="Photo" meta_type="Dexterity FTI"/>
+ <object name="House" meta_type="Dexterity FTI"/>
 </object>

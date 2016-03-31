@@ -9,6 +9,7 @@ from tncr.content.interfaces import ILandscape
 from tncr.content.interfaces import ISettlement
 from tncr.content.interfaces import ITemple
 from tncr.content.interfaces import IPhoto
+from tncr.content.interfaces import IHouse
 
 
 @implementer(IMonument)
@@ -44,5 +45,10 @@ class Temple(Container):
 @implementer(IPhoto)
 class Photo(Item):
     """Item Subclass for Photo
+    """
+
+@implementer(IHouse)
+class House(Container):
+    """Container Subclass for House
     """
 

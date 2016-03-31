@@ -32,3 +32,7 @@ class IPhoto(Interface):
     """Photo Type
     """
 
+class IHouse(Interface):
+    """House Type
+    """
+
