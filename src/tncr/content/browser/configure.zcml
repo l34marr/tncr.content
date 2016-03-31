@@ -25,4 +25,11 @@
   template="ruin.pt"
   permission="zope2.View" />
 
+ <browser:page
+  name="landscape_view"
+  for="tncr.content.interfaces.ILandscape"
+  class=".view.MyView"
+  template="landscape.pt"
+  permission="zope2.View" />
+
 </configure>

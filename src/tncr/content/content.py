@@ -5,8 +5,7 @@ from plone.dexterity.content import Item
 from tncr.content.interfaces import IMonument
 from tncr.content.interfaces import IRelic
 from tncr.content.interfaces import IRuin
-from tncr.content.interfaces import ITemple
-from tncr.content.interfaces import IPhoto
+from tncr.content.interfaces import ILandscape
 
 
 @implementer(IMonument)
@@ -22,5 +21,10 @@ class Relic(Container):
 @implementer(IRuin)
 class Ruin(Container):
     """Container Subclass for Ruin
+    """
+
+@implementer(ILandscape)
+class Landscape(Container):
+    """Container Subclass for Landscape
     """
 

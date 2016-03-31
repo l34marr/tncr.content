@@ -16,3 +16,7 @@ class IRuin(Interface):
     """Ruin Type
     """
 
+class ILandscape(Interface):
+    """Landscape Type
+    """
+
