@@ -20,3 +20,7 @@ class ILandscape(Interface):
     """Landscape Type
     """
 
+class ISettlement(Interface):
+    """Settlement Type
+    """
+

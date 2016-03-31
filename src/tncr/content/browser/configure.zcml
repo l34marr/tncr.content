@@ -32,4 +32,11 @@
   template="landscape.pt"
   permission="zope2.View" />
 
+ <browser:page
+  name="settlement_view"
+  for="tncr.content.interfaces.ISettlement"
+  class=".view.MyView"
+  template="settlement.pt"
+  permission="zope2.View" />
+
 </configure>

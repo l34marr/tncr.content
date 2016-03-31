@@ -6,6 +6,7 @@ from tncr.content.interfaces import IMonument
 from tncr.content.interfaces import IRelic
 from tncr.content.interfaces import IRuin
 from tncr.content.interfaces import ILandscape
+from tncr.content.interfaces import ISettlement
 
 
 @implementer(IMonument)
@@ -26,5 +27,10 @@ class Ruin(Container):
 @implementer(ILandscape)
 class Landscape(Container):
     """Container Subclass for Landscape
+    """
+
+@implementer(ISettlement)
+class Settlement(Container):
+    """Container Subclass for Settlement
     """
 

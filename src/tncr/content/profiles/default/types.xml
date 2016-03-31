@@ -4,4 +4,5 @@
  <object name="Relic" meta_type="Dexterity FTI"/>
  <object name="Ruin" meta_type="Dexterity FTI"/>
  <object name="Landscape" meta_type="Dexterity FTI"/>
+ <object name="Settlement" meta_type="Dexterity FTI"/>
 </object>
