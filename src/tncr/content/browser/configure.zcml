@@ -39,4 +39,17 @@
   template="settlement.pt"
   permission="zope2.View" />
 
+ <browser:page
+  name="temple_view"
+  for="tncr.content.interfaces.ITemple"
+  class=".view.MyView"
+  template="temple.pt"
+  permission="zope2.View" />
+
+ <browser:page
+  name="photo_view"
+  for="tncr.content.interfaces.IPhoto"
+  template="photo.pt"
+  permission="zope2.View" />
+
 </configure>

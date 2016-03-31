@@ -24,3 +24,11 @@ class ISettlement(Interface):
     """Settlement Type
     """
 
+class ITemple(Interface):
+    """Temple Type
+    """
+
+class IPhoto(Interface):
+    """Photo Type
+    """
+

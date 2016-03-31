@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<model i18n:domain="tncr.content"
+ xmlns="http://namespaces.plone.org/supermodel/schema"
+ xmlns:marshal="http://namespaces.plone.org/supermodel/marshal"
+ xmlns:i18n="http://xml.zope.org/namespaces/i18n">
+
+<schema>
+
+ <field name="title"
+  type="zope.schema.TextLine">
+  <title i18n:translate="">Title</title>
+  <required>False</required>
+ </field>
+ <field name="description"
+  type="zope.schema.Text">
+  <title i18n:translate="">Description</title>
+  <required>False</required>
+ </field>
+ <field name="image"
+  type="plone.namedfile.field.NamedBlobImage"
+  marshal:primary="true">
+  <title i18n:translate="label_image">Image</title>
+  <description />
+ </field>
+
+</schema>
+</model>

@@ -7,6 +7,8 @@ from tncr.content.interfaces import IRelic
 from tncr.content.interfaces import IRuin
 from tncr.content.interfaces import ILandscape
 from tncr.content.interfaces import ISettlement
+from tncr.content.interfaces import ITemple
+from tncr.content.interfaces import IPhoto
 
 
 @implementer(IMonument)
@@ -32,5 +34,15 @@ class Landscape(Container):
 @implementer(ISettlement)
 class Settlement(Container):
     """Container Subclass for Settlement
+    """
+
+@implementer(ITemple)
+class Temple(Container):
+    """Container Subclass for Temple
+    """
+
+@implementer(IPhoto)
+class Photo(Item):
+    """Item Subclass for Photo
     """
 
