@@ -8,6 +8,14 @@
 
 <body>
 
+<metal:title fill-slot="content-title">
+<h1 class="documentFirstHeading" tal:content="context/Title">Title</h1>
+<div id="ctgr" class="documentByLine" style="float:right" tal:condition="context/dstrct|nothing">
+<span class="kw-category" tal:content="context/level">Level</span>
+<span class="kw-category" tal:content="context/dstrct">District</span>
+</div>
+</metal:title>
+
 <metal:content-core fill-slot="content-core">
  <metal:content-core define-macro="content-core">
 
@@ -19,12 +27,6 @@
 <label class="fieldHead" i18n:translate="">Address</label>
 <span class="forText">:</span>
 <span tal:content="context/address">text</span>
-</div>
-
-<div tal:condition="context/level">
-<label class="fieldHead" i18n:translate="">Level</label>
-<span class="forText">:</span>
-<span tal:content="context/level">text</span>
 </div>
 
  </metal:content-core>

@@ -8,6 +8,13 @@
 
 <body>
 
+<metal:title fill-slot="content-title">
+<h1 class="documentFirstHeading" tal:content="context/Title">Title</h1>
+<div id="ctgr" class="documentByLine" style="float:right" tal:condition="context/dstrct|nothing">
+<span class="kw-category" tal:content="context/dstrct">District</span>
+</div>
+</metal:title>
+
 <metal:content-core fill-slot="content-core">
  <metal:content-core define-macro="content-core">
 
@@ -20,13 +27,6 @@
 <span class="forText">:</span>
 <span tal:content="context/address">text</span>
 </div>
-
-<tal:has_img define="img view/random_image/getObject|nothing">
-<img tal:condition="img"
- tal:replace="structure img/@@images/image/large" />
-<img tal:condition="python: not img"
- tal:attributes="src string:http://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Sample-image.svg/200px-Sample-image.svg.png" />
-</tal:has_img>
 
  </metal:content-core>
 </metal:content-core>
