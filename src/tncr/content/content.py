@@ -20,7 +20,7 @@ class Monument(Container):
     def dstrct(self):
         try:
             head = self.address.split(u'\u5340')[0]
-            dstr = head.split(u'\u5e02')[1]
+            dstr = head.split(u'\u5e02', 1)[1]
         except:
             return 'Unknown'
         return dstr + u'\u5340'
@@ -33,7 +33,7 @@ class Relic(Container):
     def dstrct(self):
         try:
             head = self.address.split(u'\u5340')[0]
-            dstr = head.split(u'\u5e02')[1]
+            dstr = head.split(u'\u5e02', 1)[1]
         except:
             return 'Unknown'
         return dstr + u'\u5340'
@@ -46,7 +46,7 @@ class Ruin(Container):
     def dstrct(self):
         try:
             head = self.address.split(u'\u5340')[0]
-            dstr = head.split(u'\u5e02')[1]
+            dstr = head.split(u'\u5e02', 1)[1]
         except:
             return 'Unknown'
         return dstr + u'\u5340'
@@ -60,7 +60,7 @@ class Landscape(Container):
     def dstrct(self):
         try:
             head = self.address.split(u'\u5340')[0]
-            dstr = head.split(u'\u5e02')[1]
+            dstr = head.split(u'\u5e02', 1)[1]
         except:
             return 'Unknown'
         return dstr + u'\u5340'
@@ -73,7 +73,7 @@ class Settlement(Container):
     def dstrct(self):
         try:
             head = self.address.split(u'\u5340')[0]
-            dstr = head.split(u'\u5e02')[1]
+            dstr = head.split(u'\u5e02', 1)[1]
         except:
             return 'Unknown'
         return dstr + u'\u5340'
@@ -86,7 +86,7 @@ class Temple(Container):
     def dstrct(self):
         try:
             head = self.address.split(u'\u5340')[0]
-            dstr = head.split(u'\u5e02')[1]
+            dstr = head.split(u'\u5e02', 1)[1]
         except:
             return 'Unknown'
         return dstr + u'\u5340'
@@ -104,7 +104,7 @@ class House(Container):
     def dstrct(self):
         try:
             head = self.address.split(u'\u5340')[0]
-            dstr = head.split(u'\u5e02')[1]
+            dstr = head.split(u'\u5e02', 1)[1]
         except:
             return 'Unknown'
         return dstr + u'\u5340'
