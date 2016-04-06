@@ -18,15 +18,15 @@
 <metal:content-core fill-slot="content-core">
  <metal:content-core define-macro="content-core">
 
-<div id="parent-fieldname-text"
- tal:condition="context/body"
- tal:content="structure python:context.body.output_relative_to(view.context)" />
-
 <div tal:condition="context/address">
 <label class="fieldHead" i18n:translate="">Address</label>
 <span class="forText">:</span>
 <span tal:content="context/address">text</span>
 </div>
+
+<div id="parent-fieldname-text"
+ tal:condition="context/body"
+ tal:content="structure python:context.body.output_relative_to(view.context)" />
 
  </metal:content-core>
 </metal:content-core>
