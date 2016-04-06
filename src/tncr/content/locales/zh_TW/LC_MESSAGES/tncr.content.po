@@ -1,9 +1,6 @@
-# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
-# SOME DESCRIPTIVE TITLE.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: tncr.content\n"
 "POT-Creation-Date: 2016-04-06 02:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -12,8 +9,8 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0\n"
-"Language-Code: en\n"
-"Language-Name: English\n"
+"Language-Code: zh-tw\n"
+"Language-Name: Traditional Chinese\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: tncr.content\n"
 
@@ -21,13 +18,13 @@ msgstr ""
 #: ./browser/landscape.pt:26
 #: ./browser/monument.pt:26
 msgid "Address"
-msgstr ""
+msgstr "地址"
 
 #: ./models/house.xml
 #: ./models/landscape.xml
 #: ./models/monument.xml
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #: ./profiles/default/types/Photo.xml
 msgid "Edit"
@@ -35,70 +32,70 @@ msgstr ""
 
 #: ./profiles/default/types/House.xml
 msgid "House"
-msgstr ""
+msgstr "老屋"
 
 #: ./profiles/default/types/House.xml
 msgid "House Type"
-msgstr ""
+msgstr "老屋表單"
 
 #: ./models/house.xml
 #: ./models/landscape.xml
 #: ./models/monument.xml
 msgid "Id"
-msgstr ""
+msgstr "識別碼"
 
 #: ./profiles/default/types/Landscape.xml
 msgid "Landscape"
-msgstr ""
+msgstr "文化景觀"
 
 #: ./profiles/default/types/Landscape.xml
 msgid "Landscape Type"
-msgstr ""
+msgstr "文化景觀表單"
 
 #: ./models/relic.xml
 #: ./models/ruin.xml
 msgid "Level"
-msgstr ""
+msgstr "級別"
 
 #: ./profiles/default/types/Monument.xml
 msgid "Monument"
-msgstr ""
+msgstr "歷史建築"
 
 #: ./profiles/default/types/Monument.xml
 msgid "Monument Type"
-msgstr ""
+msgstr "歷史建築表單"
 
 #: ./profiles/default/types/Photo.xml
 msgid "Photo"
-msgstr ""
+msgstr "照片"
 
 #: ./profiles/default/types/Photo.xml
 msgid "Photo Type"
-msgstr ""
+msgstr "照片表單"
 
 #: ./profiles/default/types/Relic.xml
 msgid "Relic"
-msgstr ""
+msgstr "古蹟"
 
 #: ./profiles/default/types/Relic.xml
 msgid "Relic Type"
-msgstr ""
+msgstr "古蹟表單"
 
 #: ./profiles/default/types/Ruin.xml
 msgid "Ruin"
-msgstr ""
+msgstr "遺址"
 
 #: ./profiles/default/types/Ruin.xml
 msgid "Ruin Type"
-msgstr ""
+msgstr "遺址表單"
 
 #: ./profiles/default/types/Settlement.xml
 msgid "Settlement"
-msgstr ""
+msgstr "聚落"
 
 #: ./profiles/default/types/Settlement.xml
 msgid "Settlement Type"
-msgstr ""
+msgstr "聚落表單"
 
 #: ./configure.zcml:19
 msgid "TNCR Content"
@@ -110,11 +107,11 @@ msgstr ""
 
 #: ./profiles/default/types/Temple.xml
 msgid "Temple"
-msgstr ""
+msgstr "寺廟"
 
 #: ./profiles/default/types/Temple.xml
 msgid "Temple Type"
-msgstr ""
+msgstr "寺廟表單"
 
 #: ./models/house.xml
 #: ./models/landscape.xml
