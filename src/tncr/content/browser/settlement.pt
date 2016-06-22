@@ -27,6 +27,11 @@
 <span class="forText">:</span>
 <span tal:content="context/address">text</span>
 </div>
+<div tal:condition="context/dstrct" style="margin-top: 20px">
+<iframe style="border: none;" height="500" width="100%" src="#"
+ tal:define="url string: http://140.109.161.40:8080/geoexplorer/viewer/#maps/";
+ tal:attributes="src python: url + view.dstrct_number(context.dstrct())"></iframe>
+</div>
 
  </metal:content-core>
 </metal:content-core>
