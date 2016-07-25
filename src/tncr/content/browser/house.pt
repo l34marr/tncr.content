@@ -9,10 +9,10 @@
 <body>
 
 <metal:title fill-slot="content-title">
-<h1 class="documentFirstHeading" tal:content="context/Title">Title</h1>
 <div id="ctgr" class="documentByLine" style="float:right" tal:condition="context/dstrct|nothing">
 <span class="kw-category" tal:content="context/dstrct">District</span>
 </div>
+<h1 class="documentFirstHeading" tal:content="context/Title">Title</h1>
 </metal:title>
 
 <metal:content-core fill-slot="content-core">
