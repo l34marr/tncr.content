@@ -32,6 +32,11 @@
   <title i18n:translate="">Address</title>
   <required>False</required>
  </field>
+ <field name="image"
+  type="plone.namedfile.field.NamedBlobImage">
+  <title i18n:translate="">Image</title>
+  <readonly>True</readonly>
+ </field>
 
 </schema>
 
